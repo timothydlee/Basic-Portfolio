@@ -1,72 +1,127 @@
+/*Index.HTML*/
 body{
-		font-size: 24px;
-		background-image: url("assets/images/seigaiha.png");
+	height: 100%;
 }
 
 .container{
-	width: 960px;
-	box-sizing: border-box;
+	max-width: 960px;
 }
-header{
+
+#sub-container{
+	background-image: url("../images/seigaiha.png");
+}
+
+.awesome-header{
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	display: inline-block;
+	background-color: white;
+	border-bottom: 2px solid #ccc;
+	width: 100%;
 }
 
-h1{
-
+.header-container{
+	width: 23%;
 }
 
-.your-name{
+.name{
 	background-color: #4aaaa5;
+	font-size: 1.8em;
 	color: white;
-	width: 25%;
-	padding: 20px;
+	margin-left: 7%;
+	padding: 15px;
 	text-align: center;
-	margin-left: 100px;
-	font-weight: bolder;
+}
+
+#navcontainer{
+	float: right;
+	color:#777;
+	margin-top: -35px;
+}
+
+hr{
+	width: 90%;
+	height: 3px;
+	background-color: #dfdfdf;
+	border: 0;
+}
+#navlist{
 
 }
 
-nav{
-	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	float: left;
-}
-
-section{
-	clear: both;
+#navlist li{
+	display: inline;
+    border-right: 1px solid #777;
+    padding: 0 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
 }
 
 #main-content{
-	width: 650px;	
+	background-color: white;
+	max-width: 650px;
+	margin-left: 7%;
 }
 
-.about-me-info{
+.info{
 
 }
 
+/*about me*/
 h2{
+	background-color: white;
+	padding: 20px 0px 0px 0px;
+	color: #4aaaa4;
+	font-weight: bolder;
+	font-size: 1.5em;
+	margin-top: 5%;
+	margin-left: 5%;
+}
 
+.info img{
+	max-height: 200px;
+	max-width: 200px;
+	margin-left: 5%;
+	margin-top: 2%;
 }
 
 p{
-	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+	position: relative;
 }
 
 .connect-with-me{
-	width: 270px;
-	float: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bolder;
+	background-color: white;
+	float: right;
+	margin-top: -43.8%;
+	margin-right: 5%;
+	padding: 20px;
 }
 
-.connect-icons{
+.connect-with-me-line{
+	height: 1px solid;
+	width: 100%;
+}
 
+h3{
+
+}
+
+#connect-icons{
+	padding: 60px;
+}
+
+#connect-icons img{
+	height: 50px;
+	width: 50px;
 }
 
 footer{
-	clear:both;
-	background-color: #666666;
-	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	padding: 20px;
-	color: white;
-	font-size: .5em;
-	font-weight: lighter;
+	clear: both;
+	border-top: 4px solid #4aaaa5;
+	background-color: #666;
 	text-align: center;
+	font-size: .6em;
+	color: #999;
+	padding: 24px;
 }
