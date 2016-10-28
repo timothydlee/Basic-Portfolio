@@ -65,6 +65,8 @@ hr{
 #navlist li a:hover{
 	text-decoration: underline;
 	color: #ccc;
+	-webkit-animation-name: bounce; 
+    animation-name: bounce; 
 }
 
 #navlist li:last child{
